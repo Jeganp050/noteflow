@@ -1,0 +1,38 @@
+# Xcode
+.DS_Store
+*/build/*
+*.moved-aside
+*.xcuserstate
+*.xcbkptlist
+*.xcuserstate
+
+## User data
+xcuserdata/
+
+## Build generated
+build/
+DerivedData/
+*.moved-aside
+
+## CocoaPods & Swift Package Manager
+Pods/
+.build/
+Packages/
+Package.pins
+Package.resolved
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+
+## Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+## Code Injection & Tools
+.idea/
+.vscode/
+*.swp
+*~
